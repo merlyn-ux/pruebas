@@ -28,7 +28,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+
             ],
             "scripts": []
           },
@@ -93,6 +96,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -124,6 +128,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "pruebas"
+    }
+  },
+  "defaultProject": "pruebas",
+  "cli": {
+    "analytics": "00c8e99e-0a3d-4f40-aa21-99e21c677cc9"
+  }
 }
